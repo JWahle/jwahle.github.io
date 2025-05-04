@@ -1,0 +1,28 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# If you find yourself editing this file very often, consider using Jekyll's data files
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Johannes Wahle
+email: johannes@jowahle.de
+description: >-
+  Johannes Wahle blogging about quality in software quality and efficient development.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.jowahle.de/" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  JWahle
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
