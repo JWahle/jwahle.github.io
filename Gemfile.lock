@@ -275,7 +275,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (= 232)
-  jekyll-feed (= 0.17)
+  jekyll-feed
   jekyll-include-cache
   jekyll-remote-theme
 
