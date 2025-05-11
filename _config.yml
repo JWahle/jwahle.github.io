@@ -9,20 +9,50 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Johannes Wahle
+name: Johannes Wahle
 email: johannes@jowahle.de
+logo: "/assets/images/JohannesWahle.jpg"
 description: >-
-  Johannes Wahle blogging about quality in software quality and efficient development.
+  Johannes Wahle blogging about quality in software and efficient software development.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.jowahle.de/" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  JWahle
+url: "https://www.jowahle.de/" # the base hostname and protocol for your site, e.g. http://example.com
+repository: "JWahle/jwahle.github.io"
+github_username: JWahle
 
-# Build settings
-theme: minima
+locale: "en-US"
+theme: minimal-mistakes-jekyll # https://mmistakes.github.io/minimal-mistakes/
+minimal_mistakes_skin: dark
+
 plugins:
   - jekyll-feed
 
+include:
+  - _pages
+
 exclude:
+  - .idea
   - README.md
   - Gemfile
   - Gemfile.lock
   - CNAME
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: false
+      related: false
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
