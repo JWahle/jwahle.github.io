@@ -20,10 +20,12 @@ repository: "JWahle/jwahle.github.io"
 github_username: JWahle
 
 locale: "en-US"
-theme: minimal-mistakes-jekyll # https://mmistakes.github.io/minimal-mistakes/
+remote_theme: mmistakes/minimal-mistakes@4.27.1 # https://mmistakes.github.io/minimal-mistakes/
 minimal_mistakes_skin: dark
 
 plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
   - jekyll-feed
 
 include:
