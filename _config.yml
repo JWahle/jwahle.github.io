@@ -21,6 +21,7 @@ github_username: JWahle
 
 locale: "en-US"
 remote_theme: mmistakes/minimal-mistakes@4.27.1 # https://mmistakes.github.io/minimal-mistakes/
+# Configuration: https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 minimal_mistakes_skin: dark
 
 plugins:
@@ -64,3 +65,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/JWahle"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/johannes.wahle"
