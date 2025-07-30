@@ -24,6 +24,12 @@ remote_theme: mmistakes/minimal-mistakes@4.27.1 # https://mmistakes.github.io/mi
 # Configuration: https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 minimal_mistakes_skin: dark
 
+# Search
+search: true
+lunr:
+  search_within_pages: true
+
+
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
