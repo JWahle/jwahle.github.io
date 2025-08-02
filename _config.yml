@@ -74,3 +74,13 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/johannes.wahle"
+
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id: "MDEwOlJlcG9zaXRvcnkzNjk0OTA0NTQ=" # Shown during giscus setup at https://giscus.app
+    category_name: "Comments" # Full-text name of the category
+    category_id: "DIC_kwDOFgX6Fs4CttZF" # Shown during giscus setup at https://giscus.app
+    discussion_term: "pathname" # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled: "1" # '1' for enabled (default), '0' for disabled
+    theme: "dark" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
