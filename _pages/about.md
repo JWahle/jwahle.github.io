@@ -7,8 +7,7 @@ permalink: /about
 
 I'm Johannes Wahle, a senior software developer at [sevdesk](https://www.sevdesk.de) with a background in mathematics.
 My main focus is backend development in Kotlin, but I have also occasionally worked on TypeScript/React, PHP and Python projects.  
-I used to be a contributor to the [CamillaDSP](https://github.com/HEnquist/camilladsp) audio project
-([GUI](https://github.com/HEnquist/camillagui), [Backend](https://github.com/HEnquist/camillagui-backend)),
+I used to be a contributor to the [GUI](https://github.com/HEnquist/camillagui) and [Backend](https://github.com/HEnquist/camillagui-backend) of the [CamillaDSP](https://github.com/HEnquist/camilladsp) audio project,
 and I am maintaining a [shell script](https://github.com/JWahle/piCoreCDSP) to easily install it on [piCorePlayer](https://www.picoreplayer.org/).
 
 In my free time, I like to occupy myself with various self-improvement and educational topics.
