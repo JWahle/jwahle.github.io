@@ -84,3 +84,9 @@ comments:
     discussion_term: "pathname" # "pathname" (default), "url", "title", "og:title"
     reactions_enabled: "1" # '1' for enabled (default), '0' for disabled
     theme: "dark" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-QZ6E61L3TD"
+    anonymize_ip: true # default
