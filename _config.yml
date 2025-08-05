@@ -15,7 +15,7 @@ logo: "/assets/images/JohannesWahle.jpg"
 description: >-
   Johannes Wahle blogging about quality in software and efficient software development.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.jowahle.de/" # the base hostname and protocol for your site, e.g. http://example.com
+url: "https://www.jowahle.de" # the base hostname and protocol for your site, e.g. http://example.com
 repository: "JWahle/jwahle.github.io"
 github_username: JWahle
 
