@@ -29,11 +29,11 @@ search: true
 lunr:
   search_within_pages: true
 
-
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-feed
+  - jekyll-sitemap
 
 include:
   - _pages
